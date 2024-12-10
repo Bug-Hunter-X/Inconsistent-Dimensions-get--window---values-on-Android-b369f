@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions, particularly on Android.  The `Dimensions.get('window')` call might return incorrect or inconsistent values, especially when the app is first launched or during screen orientation changes.  It may return the previous dimensions instead of the updated ones, leading to layout issues.
